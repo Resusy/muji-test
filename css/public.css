@@ -1,0 +1,26 @@
+/*css 初始化start*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { margin:0; padding:0; }
+body { font-size:14px; color:#666;
+    font-family: Verdana, Microsoft YaHei, Simsun, serif; background:#fff; }
+img { border:0; display: block;}
+ol, ul { list-style:none; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+em { font-style:normal; }
+input, button, select, textarea { outline:none; }
+textarea { resize:none; }
+a { color: #666; text-decoration:none; }
+a:hover { color: #666; text-decoration:none; }
+/*css 初始化end*/
+
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
